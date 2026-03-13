@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "70",
+      "weight": "160",
+      "goal": "Marathon training - high-intensity endurance athlete requiring carbohydrate loading and optimal macronutrient timing around training sessions",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 3 meals plus pre/post-workout nutrition totaling 1 day",
+      "Macronutrient ratios emphasize carbohydrates (55-65%), with adequate protein (15-20%) and fat (20-25%)",
+      "Includes timing guidance for meals relative to training session (e.g., pre-workout, post-workout)",
+      "Total daily caloric intake appropriate for marathon training (~3,000-3,500 calories for 160 lb endurance athlete)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, with specific macronutrient ratios and timing around training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "70",
+      "weight": "185",
+      "goal": "Build strength and muscle mass for powerlifting competition",
+      "restrictions": "Vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4+ meals with adequate protein from vegetarian sources (minimum 150g total daily protein)",
+      "Pre and post-workout meals strategically timed around training session",
+      "All meals are practical and realistic for single-day consumption"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) with dietary restrictions (vegetarian) requiring specific protein sources and meal timing around workout windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "72",
+      "weight": "185",
+      "goal": "optimize performance and recovery for competitive swimming training",
+      "restrictions": "no nuts, no shellfish, vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus pre/post-practice nutrition appropriate for swimming",
+      "All meals are easily digestible and free from nuts and shellfish",
+      "Includes adequate hydration guidance throughout the day",
+      "Vegetarian protein sources are included to support muscle recovery"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (swimmer) focusing on easily digestible meals, hydration requirements, and pre/post-practice nutrition without common allergens (nuts, shellfish)"
+  }
+]

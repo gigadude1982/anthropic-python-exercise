@@ -1,0 +1,64 @@
+[
+  {
+    "output": "# One-Day Marathon Training Meal Plan\n\n**Athlete Profile:** 70\" tall, 160 lbs | Marathon training - high-intensity endurance\n\n---\n\n## Daily Nutritional Target\n- **Calories:** 3,000-3,200 kcal\n- **Protein:** 120-140g (1.5-1.75g per lb)\n- **Carbohydrates:** 450-500g (2.8-3.1g per lb for endurance loading)\n- **Fat:** 85-100g\n\n---\n\n## BREAKFAST (7:00 AM) | 650 cal | 24g P | 95g C | 16g F\n\n**Carb-Loading Pancake Stack**\n- Whole wheat flour: 60g\n- Eggs: 2 large (100g)\n- Banana: 150g (mashed into batter)\n- Honey: 30ml\n- Almond butter: 20g (spread)\n- Greek yogurt: 100g (topping)\n- Blueberries: 80g\n\n*Macros: 24g protein | 95g carbs | 16g fat*\n\n---\n\n## MID-MORNING SNACK (10:00 AM) | 380 cal | 18g P | 52g C | 8g F\n\n**Energy Bars & Fruit**\n- Granola bar (oats/honey): 50g\n- Apple: 200g\n- Whole grain toast: 40g (2 slices)\n- Honey: 20ml (drizzle)\n- Almonds: 25g\n\n*Macros: 18g protein | 52g carbs | 8g fat*\n\n---\n\n## LUNCH (1:00 PM) | 820 cal | 35g P | 110g C | 18g F\n\n**Chicken & Brown Rice Power Bowl**\n- Grilled chicken breast: 180g\n- Cooked brown rice: 200g\n- Roasted broccoli: 120g\n- Sweet potato: 150g (roasted)\n- Olive oil: 15ml\n- Low-sodium soy sauce: 15ml\n- Sesame seeds: 10g\n\n*Macros: 35g protein | 110g carbs | 18g fat*\n\n---\n\n## PRE-WORKOUT SNACK (3:30 PM) | 320 cal | 14g P | 58g C | 4g F\n\n**Quick Carb + Protein Fuel**\n- Bagel (whole wheat): 85g\n- Turkey breast: 50g (sliced)\n- Banana: 120g\n- Honey: 15ml\n\n*Macros: 14g protein | 58g carbs | 4g fat*\n\n---\n\n## DINNER (7:30 PM) | 850 cal | 38g P | 115g C | 22g F\n\n**Salmon with Quinoa & Vegetables**\n- Atlantic salmon fillet: 160g (baked)\n- Cooked quinoa: 180g\n- Roasted asparagus: 100g\n- Roasted bell peppers: 120g (mixed colors)\n- Olive oil: 18ml (for cooking)\n- Lemon & garlic: to taste\n- Whole grain roll: 50g\n\n*Macros: 38g protein | 115g carbs | 22g fat*\n\n---\n\n## EVENING SNACK (9:00 PM) | 180 cal | 12g P | 22g C | 10g F\n\n**Recovery Snack**\n- Cottage cheese (2%): 150g\n- Honey: 15ml\n- Walnuts: 20g\n- Berries (mixed): 100g\n\n*Macros: 12g protein | 22g carbs | 10g fat*\n\n---\n\n## DAILY TOTALS\n| Macronutrient | Amount | % of Calories |\n|---|---|---|\n| **Protein** | 141g | 19% |\n| **Carbohydrates** | 452g | 60% |\n| **Fat** | 98g | 29% |\n| **",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "70",
+        "weight": "160",
+        "goal": "Marathon training - high-intensity endurance athlete requiring carbohydrate loading and optimal macronutrient timing around training sessions",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan contains exactly 3 meals plus pre/post-workout nutrition totaling 1 day",
+        "Macronutrient ratios emphasize carbohydrates (55-65%), with adequate protein (15-20%) and fat (20-25%)",
+        "Includes timing guidance for meals relative to training session (e.g., pre-workout, post-workout)",
+        "Total daily caloric intake appropriate for marathon training (~3,000-3,500 calories for 160 lb endurance athlete)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, with specific macronutrient ratios and timing around training sessions"
+    },
+    "score": 7,
+    "reasoning": "The solution meets all three mandatory requirements with high quality: it provides daily caloric total (3,080 cal), complete macronutrient breakdown (141g protein, 452g carbs, 98g fat), and meals with exact foods, portions, and timing. The macronutrient ratios are excellent and fall within target ranges. However, there is a structural ambiguity regarding the '3 meals plus pre/post-workout' requirement - the solution provides 6 eating occasions, which could be interpreted as exceeding the specification or as a reasonable interpretation of carb-loading strategy. More critically, while pre-workout nutrition is clearly labeled, post-workout nutrition is not explicitly identified, only implied through the 'Recovery Snack' label. The lack of explicit workout timing information also creates minor ambiguity about whether meal timing truly optimizes around training. These are secondary criteria issues that don't violate mandatory requirements but represent meaningful gaps in meeting the stated criteria."
+  },
+  {
+    "output": "# One-Day Vegetarian Meal Plan for Powerlifting Athlete\n\n**Athlete Profile:** 70\" tall, 185 lbs | Strength and muscle building for powerlifting\n\n---\n\n## Daily Nutritional Target\n- **Calories:** 3,200-3,400 kcal\n- **Protein:** 165-185g (2.2-2.5g per lb for muscle hypertrophy)\n- **Carbohydrates:** 380-420g (fuel for heavy lifting)\n- **Fat:** 100-115g\n\n---\n\n## BREAKFAST (7:00 AM) | 720 cal | 28g P | 92g C | 20g F\n\n**Protein-Packed Egg Scramble**\n- Large eggs: 3 (180g)\n- Whole wheat toast: 2 slices (60g)\n- Butter: 10g\n- Cheddar cheese: 40g\n- Spinach: 80g\n- Orange juice: 240ml\n\n*Macros: 28g protein | 92g carbs | 20g fat*\n\n---\n\n## MID-MORNING SNACK (10:00 AM) | 350 cal | 20g P | 52g C | 6g F\n\n**Greek Yogurt & Granola**\n- Plain Greek yogurt (0% fat): 200g\n- Granola (low-fat): 50g\n- Honey: 20ml\n- Berries (mixed): 100g\n- Almonds: 15g\n\n*Macros: 20g protein | 52g carbs | 6g fat*\n\n---\n\n## LUNCH (1:00 PM) | 820 cal | 32g P | 108g C | 18g F\n\n**Paneer & Lentil Power Bowl**\n- Paneer cheese (cubed): 150g\n- Brown rice (cooked): 200g\n- Cooked red lentils: 120g\n- Broccoli (roasted): 150g\n- Olive oil: 12ml\n- Lemon juice & spices: to taste\n\n*Macros: 32g protein | 108g carbs | 18g fat*\n\n---\n\n## PRE-WORKOUT SNACK (3:30 PM) | 310 cal | 15g P | 54g C | 4g F\n\n**Quick Carb-Protein Combo**\n- Banana: 150g\n- Peanut butter: 20g (1.5 tbsp)\n- White bread: 50g (toasted)\n- Low-fat milk: 200ml\n\n*Macros: 15g protein | 54g carbs | 4g fat*\n\n---\n\n## DINNER (7:30 PM) | 880 cal | 38g P | 110g C | 22g F\n\n**Cottage Cheese & Chickpea Pasta**\n- Whole wheat pasta: 200g (cooked)\n- Low-fat cottage cheese: 180g\n- Canned chickpeas (drained): 140g\n- Marinara sauce: 150g\n- Olive oil: 15ml\n- Parmesan cheese: 25g\n- Mixed vegetables (zucchini, bell pepper): 200g\n\n*Macros: 38g protein | 110g carbs | 22g fat*\n\n---\n\n## EVENING SNACK (9:30 PM) | 240 cal | 22g P | 24g C | 5g F\n\n**Casein Protein Recovery**\n- Casein protein powder: 30g\n- Low-fat milk: 200ml\n- Oats (dry): 25g\n- Honey: 10ml\n\n*Macros: 22g protein | 24g carbs | 5g fat*\n\n---\n\n## DAILY TOTALS\n| Macronutrient | Amount | % of Calories |\n|---|---|---|\n| **Protein** | 155g | 18% |\n| **Carbohydrates** | 440g | 52% |\n| **Fat** | 75g | 20% |\n| **Calories** | 3,320 ",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "70",
+        "weight": "185",
+        "goal": "Build strength and muscle mass for powerlifting competition",
+        "restrictions": "Vegetarian"
+      },
+      "solution_criteria": [
+        "Meal plan includes 4+ meals with adequate protein from vegetarian sources (minimum 150g total daily protein)",
+        "Pre and post-workout meals strategically timed around training session",
+        "All meals are practical and realistic for single-day consumption"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) with dietary restrictions (vegetarian) requiring specific protein sources and meal timing around workout windows"
+    },
+    "score": 7,
+    "reasoning": "The solution meets all three mandatory requirements: it includes daily caloric total (3,320 kcal), complete macronutrient breakdown (P/C/F), and meals with exact foods, portions, and timing. It exceeds the 4+ meal requirement with 6 meals and uses appropriate vegetarian protein sources. However, there is a critical deficiency: the daily protein total of 155g technically meets the minimum 150g criterion but falls significantly short of the solution's own stated target of 165-185g, indicating poor nutritional planning. Additionally, the protein-to-calorie ratio (18%) is suboptimal for a strength athlete. The pre-workout/post-workout meal timing is present but lacks specificity regarding actual training time. Despite these issues, all mandatory requirements are technically satisfied."
+  },
+  {
+    "output": "# One-Day Vegetarian Meal Plan for Competitive Swimming Athlete\n\n**Athlete Profile:** 72\" tall, 185 lbs | Performance & recovery optimization for competitive swimming\n\n---\n\n## Daily Nutritional Target\n- **Calories:** 3,200-3,400 kcal\n- **Protein:** 148-165g (1.6-1.8g per lb)\n- **Carbohydrates:** 420-480g (for endurance training)\n- **Fat:** 100-115g\n\n---\n\n## BREAKFAST (7:00 AM) | 720 cal | 26g P | 95g C | 20g F\n\n**Greek Yogurt & Granola Bowl**\n- Greek yogurt (plain, non-fat): 250g\n- Granola (no nuts): 80g\n- Banana: 180g (sliced)\n- Honey: 20ml\n- Sunflower seeds: 20g\n- Blueberries: 100g\n\n*Macros: 26g protein | 95g carbs | 20g fat*\n\n---\n\n## MID-MORNING SNACK (10:00 AM) | 340 cal | 18g P | 52g C | 5g F\n\n**Energy Bar & Fruit**\n- Oat bar (seed-based, no nuts): 65g\n- Orange juice: 250ml\n- Rice cakes: 30g\n\n*Macros: 18g protein | 52g carbs | 5g fat*\n\n---\n\n## LUNCH (1:00 PM) | 820 cal | 32g P | 110g C | 18g F\n\n**Veggie & Egg White Omelet with Sweet Potato**\n- Whole eggs: 2 (100g)\n- Egg whites: 120ml\n- Spinach: 100g\n- Bell peppers: 80g\n- Mushrooms: 60g\n- Olive oil (for cooking): 10ml\n- Whole grain bread: 60g (2 slices)\n- Sweet potato (roasted): 200g\n- Low-fat cheese: 30g\n\n*Macros: 32g protein | 110g carbs | 18g fat*\n\n---\n\n## PRE-WORKOUT SNACK (3:15 PM) | 380 cal | 14g P | 65g C | 4g F\n\n**Carb-Loading Snack**\n- Bagel (plain): 85g\n- Jam: 30g\n- Banana: 120g\n- Honey: 15ml\n- Whole milk: 200ml\n\n*Macros: 14g protein | 65g carbs | 4g fat*\n\n---\n\n## DINNER (7:30 PM) | 880 cal | 38g P | 115g C | 22g F\n\n**Vegetarian Pasta Primavera with Tofu**\n- Whole wheat pasta: 200g (cooked)\n- Extra-firm tofu: 200g (pan-fried in olive oil)\n- Zucchini: 100g\n- Broccoli: 120g\n- Carrots: 80g\n- Olive oil: 12ml\n- Garlic & herbs: to taste\n- Low-fat parmesan: 25g\n- Whole grain dinner roll: 60g\n\n*Macros: 38g protein | 115g carbs | 22g fat*\n\n---\n\n## EVENING RECOVERY SNACK (9:00 PM) | 260 cal | 20g P | 43g C | 3g F\n\n**Chocolate Milk Recovery Drink**\n- Low-fat chocolate milk: 400ml\n- Protein powder (whey): 25g\n- Banana: 100g\n\n*Macros: 20g protein | 43g carbs | 3g fat*\n\n---\n\n## DAILY TOTALS\n| Macronutrient | Amount | % of Calories |\n|---|---|---|\n| **Protein** | 148g | 17% |\n| **Carbohydrates** | 480g | 57% |\n| **Fat** | 102g | 27% |",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "72",
+        "weight": "185",
+        "goal": "optimize performance and recovery for competitive swimming training",
+        "restrictions": "no nuts, no shellfish, vegetarian"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus pre/post-practice nutrition appropriate for swimming",
+        "All meals are easily digestible and free from nuts and shellfish",
+        "Includes adequate hydration guidance throughout the day",
+        "Vegetarian protein sources are included to support muscle recovery"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a sport-specific athlete (swimmer) focusing on easily digestible meals, hydration requirements, and pre/post-practice nutrition without common allergens (nuts, shellfish)"
+    },
+    "score": 7,
+    "reasoning": "The solution successfully meets all three mandatory requirements with clear daily totals, detailed macronutrient breakdowns, and specific meals with portions and timing. It addresses the athlete's sport (swimming), restrictions (vegetarian, no nuts/shellfish), and includes appropriate pre/post-workout nutrition. However, it fails to include any hydration guidance, which is explicitly listed as a secondary criterion. The meal plan is well-structured and appropriate for the athlete profile, but the omission of hydration recommendations for a competitive swimmer is a notable gap in a comprehensive nutrition plan."
+  }
+]
